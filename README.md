@@ -2,12 +2,18 @@
 
 1.
 CREATE DATABASE devisec;
+
 USE dev;
+
 CREATE TABLE phones
+
 (
 ID INT PRIMARY KEY NOT NULL, 
+
 ProductName VARCHAR(30) NOT NULL,
+
 Manufacturer VARCHAR(40) NOT NULL,
+
 ProductCount INT,
 Price VARCHAR(15) NOT NULL
 );
